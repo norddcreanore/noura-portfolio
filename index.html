@@ -1,33 +1,54 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>ملفي الشخصي</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Noura's Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <div class="container">
-    <h1>أهلاً! أنا نوره</h1>
-    <p>محللة بيانات مهتمة بـ تحليل البيانات وتطوير المهارات التقنية.</p>
 
-    <h2>مهاراتي:</h2>
-    <ul>
-      <h2 onclick="toggleProjects('excel-projects')" style="cursor: pointer;">Excel</h2>
-<div id="excel-projects" style="display: none; margin-bottom: 10px;">
-  <ul>
-    <li>تحليل بيانات المبيعات باستخدام Pivot Table</li>
-    <li>إنشاء Dashboard تفاعلي لتقارير الأرباح</li>
-  </ul>
-</div>
-      <li>Power BI</li>
-      <li>Git / GitHub</li>
-    </ul>
+  <header>
+    <h1>Noura Alatwi</h1>
+    <p>Data Analyst</p>
+    <p>Email: nouraalatwi4@gmail.com</p>
+  </header>
 
-    <h2>تواصل معي:</h2>
-    <ul>
-      <li><a href="https://github.com/norddcreanore">GitHub</a></li>
-      <li><a href="mailto:nouraalatwi4@gmail.com">بريدي الإلكتروني</a></li>
-    </ul>
-  </div>
+  <main>
+    <section>
+      <h2>Skills:</h2>
+
+      <h3 onclick="toggleProjects('excel-projects')" style="cursor: pointer;">Excel</h3>
+      <div id="excel-projects" style="display: none; margin-bottom: 10px;">
+        <ul>
+          <li>تحليل بيانات المبيعات باستخدام Pivot Table</li>
+          <li>إنشاء Dashboard تفاعلي لتقارير الأرباح</li>
+        </ul>
+      </div>
+
+      <ul>
+        <li>Power BI</li>
+        <li>Git / GitHub</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>GitHub</h2>
+      <p>Username: norddcreanore</p>
+      <p><a href="https://github.com/norddcreanore" target="_blank">Visit my GitHub profile</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Noura Alatwi</p>
+  </footer>
+
+  <script>
+    function toggleProjects(id) {
+      var section = document.getElementById(id);
+      section.style.display = (section.style.display === "none") ? "block" : "none";
+    }
+  </script>
+
 </body>
 </html>
