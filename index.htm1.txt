@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>ملفي الشخصي</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>أهلاً! أنا نوره</h1>
+    <p>محللة بيانات مهتمة بـ تحليل البيانات وتطوير المهارات التقنية.</p>
+
+    <h2>مهاراتي:</h2>
+    <ul>
+      <li>Excel</li>
+      <li>Power BI</li>
+      <li>Git / GitHub</li>
+    </ul>
+
+    <h2>تواصل معي:</h2>
+    <ul>
+      <li><a href="https://github.com/norddcreanore">GitHub</a></li>
+      <li><a href="mailto:nouraalatwi4@gmail.com">بريدي الإلكتروني</a></li>
+    </ul>
+  </div>
+</body>
+</html>
