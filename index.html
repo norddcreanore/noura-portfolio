@@ -7,28 +7,31 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
+  <div class="container">
     <h1>Noura Alatwi</h1>
-    <p>Data Analyst</p>
-  </header>
+    <p>Email: nouraalatwi4@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/norddcreanore" target="_blank">norddcreanore</a></p>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I’m passionate about analyzing data and presenting insights using tools like Excel and Power BI.</p>
-  </section>
-
-  <section id="skills">
     <h2>My Skills</h2>
     <ul>
-      <li><a href="https://docs.google.com/spreadsheets/d/1sMiI5xococvcWZGgZn1CIHaqJFjagUgm/edit?usp=sharing" target="_blank">Excel</a></li>
-      <li>Power BI</li>
+      <li><button onclick="showWork('excel')">Excel / Power BI</button></li>
       <li>Data Analysis</li>
+      <li>Git</li>
     </ul>
-  </section>
 
-  <footer>
-    <p>Contact me: nouraalatwi4@gmail.com</p>
-    <p>GitHub: <a href="https://github.com/norddcreanore" target="_blank">norddcreanore</a></p>
-  </footer>
+    <div id="excel" class="work-section hidden">
+      <h3>Excel Projects</h3>
+      <p><a href="https://docs.google.com/spreadsheets/d/1sMiI5xococvcWZGgZn1CIHaqJFjagUgm/edit?usp=sharing" target="_blank">View Excel Work</a></p>
+    </div>
+
+    <a class="cv-button" href="https://drive.google.com/uc?export=download&id=15--yGp321XcBgmKRr-t55rjjjMvH7hhR" target="_blank">Download CV</a>
+  </div>
+
+  <script>
+    function showWork(sectionId) {
+      const section = document.getElementById(sectionId);
+      section.classList.toggle('hidden');
+    }
+  </script>
 </body>
 </html>
