@@ -4,51 +4,31 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Noura's Portfolio</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <header>
     <h1>Noura Alatwi</h1>
     <p>Data Analyst</p>
-    <p>Email: nouraalatwi4@gmail.com</p>
   </header>
 
-  <main>
-    <section>
-      <h2>Skills:</h2>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m passionate about analyzing data and presenting insights using tools like Excel and Power BI.</p>
+  </section>
 
-      <h3 onclick="toggleProjects('excel-projects')" style="cursor: pointer;">Excel</h3>
-      <div id="excel-projects" style="display: none; margin-bottom: 10px;">
-        <ul>
-          <li>تحليل بيانات المبيعات باستخدام Pivot Table</li>
-          <li>إنشاء Dashboard تفاعلي لتقارير الأرباح</li>
-        </ul>
-      </div>
-
-      <ul>
-        <li>Power BI</li>
-        <li>Git / GitHub</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>GitHub</h2>
-      <p>Username: norddcreanore</p>
-      <p><a href="https://github.com/norddcreanore" target="_blank">Visit my GitHub profile</a></p>
-    </section>
-  </main>
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li><a href="https://docs.google.com/spreadsheets/d/1sMiI5xococvcWZGgZn1CIHaqJFjagUgm/edit?usp=sharing" target="_blank">Excel</a></li>
+      <li>Power BI</li>
+      <li>Data Analysis</li>
+    </ul>
+  </section>
 
   <footer>
-    <p>&copy; 2025 Noura Alatwi</p>
+    <p>Contact me: nouraalatwi4@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/norddcreanore" target="_blank">norddcreanore</a></p>
   </footer>
-
-  <script>
-    function toggleProjects(id) {
-      var section = document.getElementById(id);
-      section.style.display = (section.style.display === "none") ? "block" : "none";
-    }
-  </script>
-
 </body>
 </html>
