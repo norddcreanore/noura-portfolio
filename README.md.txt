@@ -1,23 +1,15 @@
-# ملفي الشخصي - نوره
+# Noura Alatwi Portfolio
 
-هذا مشروع بسيط لموقع شخصي قمت بتصميمه باستخدام HTML و CSS.
+Welcome to my portfolio website!
 
-## نبذة
+- Email: nouraalatwi4@gmail.com  
+- GitHub: [norddcreanore](https://github.com/norddcreanore)  
+- CV: [Download here](https://drive.google.com/uc?export=download&id=15--yGp321XcBgmKRr-t55rjjjMvH7hhR)
 
-أنا نوره، مهتمة بتحليل البيانات باستخدام أدوات مثل Power BI و Excel.
-أنشأت هذا الموقع للتعريف بنفسي ومهاراتي، ولعرضه كتمثيل في ملفي المهني.
+### Skills
+- Data Analysis
+- Excel / Power BI
+- Git
 
-## المهارات
-
-- Excel
-- Power BI
-- Git / GitHub
-
-## رابط المشروع
-
-(سيتم إضافة الرابط بعد رفعه على GitHub Pages)
-
-## تواصل
-
-- GitHub: https://github.com/norddcreanore
-- Email: nouraalatwi4@gmail.com
+### Projects
+- [Excel Work Sample](https://docs.google.com/spreadsheets/d/1sMiI5xococvcWZGgZn1CIHaqJFjagUgm/edit?usp=sharing)
